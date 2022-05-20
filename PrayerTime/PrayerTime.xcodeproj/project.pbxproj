@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9802C60A2837D5B20000D73D /* PrayerTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9802C6092837D5B20000D73D /* PrayerTimeApp.swift */; };
+		9802C60C2837D5B20000D73D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9802C60B2837D5B20000D73D /* ContentView.swift */; };
+		9802C60E2837D5B70000D73D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9802C60D2837D5B70000D73D /* Assets.xcassets */; };
+		9802C6112837D5B70000D73D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9802C6102837D5B70000D73D /* Preview Assets.xcassets */; };
+		9802C61B2837D5B70000D73D /* PrayerTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9802C61A2837D5B70000D73D /* PrayerTimeTests.swift */; };
+		9802C6252837D5B70000D73D /* PrayerTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9802C6242837D5B70000D73D /* PrayerTimeUITests.swift */; };
+		9802C6272837D5B70000D73D /* PrayerTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9802C6262837D5B70000D73D /* PrayerTimeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9802C6172837D5B70000D73D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9802C5FE2837D5B10000D73D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9802C6052837D5B20000D73D;
+			remoteInfo = PrayerTime;
+		};
+		9802C6212837D5B70000D73D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9802C5FE2837D5B10000D73D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9802C6052837D5B20000D73D;
+			remoteInfo = PrayerTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9802C6062837D5B20000D73D /* PrayerTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayerTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9802C6092837D5B20000D73D /* PrayerTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeApp.swift; sourceTree = "<group>"; };
+		9802C60B2837D5B20000D73D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9802C60D2837D5B70000D73D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9802C6102837D5B70000D73D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9802C6162837D5B70000D73D /* PrayerTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrayerTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9802C61A2837D5B70000D73D /* PrayerTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeTests.swift; sourceTree = "<group>"; };
+		9802C6202837D5B70000D73D /* PrayerTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrayerTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9802C6242837D5B70000D73D /* PrayerTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeUITests.swift; sourceTree = "<group>"; };
+		9802C6262837D5B70000D73D /* PrayerTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9802C6032837D5B20000D73D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9802C6132837D5B70000D73D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9802C61D2837D5B70000D73D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9802C5FD2837D5B10000D73D = {
+			isa = PBXGroup;
+			children = (
+				9802C6082837D5B20000D73D /* PrayerTime */,
+				9802C6192837D5B70000D73D /* PrayerTimeTests */,
+				9802C6232837D5B70000D73D /* PrayerTimeUITests */,
+				9802C6072837D5B20000D73D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9802C6072837D5B20000D73D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9802C6062837D5B20000D73D /* PrayerTime.app */,
+				9802C6162837D5B70000D73D /* PrayerTimeTests.xctest */,
+				9802C6202837D5B70000D73D /* PrayerTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9802C6082837D5B20000D73D /* PrayerTime */ = {
+			isa = PBXGroup;
+			children = (
+				9802C6092837D5B20000D73D /* PrayerTimeApp.swift */,
+				9802C60B2837D5B20000D73D /* ContentView.swift */,
+				9802C60D2837D5B70000D73D /* Assets.xcassets */,
+				9802C60F2837D5B70000D73D /* Preview Content */,
+			);
+			path = PrayerTime;
+			sourceTree = "<group>";
+		};
+		9802C60F2837D5B70000D73D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9802C6102837D5B70000D73D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9802C6192837D5B70000D73D /* PrayerTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9802C61A2837D5B70000D73D /* PrayerTimeTests.swift */,
+			);
+			path = PrayerTimeTests;
+			sourceTree = "<group>";
+		};
+		9802C6232837D5B70000D73D /* PrayerTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9802C6242837D5B70000D73D /* PrayerTimeUITests.swift */,
+				9802C6262837D5B70000D73D /* PrayerTimeUITestsLaunchTests.swift */,
+			);
+			path = PrayerTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9802C6052837D5B20000D73D /* PrayerTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9802C62A2837D5B70000D73D /* Build configuration list for PBXNativeTarget "PrayerTime" */;
+			buildPhases = (
+				9802C6022837D5B20000D73D /* Sources */,
+				9802C6032837D5B20000D73D /* Frameworks */,
+				9802C6042837D5B20000D73D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrayerTime;
+			productName = PrayerTime;
+			productReference = 9802C6062837D5B20000D73D /* PrayerTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9802C6152837D5B70000D73D /* PrayerTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9802C62D2837D5B70000D73D /* Build configuration list for PBXNativeTarget "PrayerTimeTests" */;
+			buildPhases = (
+				9802C6122837D5B70000D73D /* Sources */,
+				9802C6132837D5B70000D73D /* Frameworks */,
+				9802C6142837D5B70000D73D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9802C6182837D5B70000D73D /* PBXTargetDependency */,
+			);
+			name = PrayerTimeTests;
+			productName = PrayerTimeTests;
+			productReference = 9802C6162837D5B70000D73D /* PrayerTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9802C61F2837D5B70000D73D /* PrayerTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9802C6302837D5B70000D73D /* Build configuration list for PBXNativeTarget "PrayerTimeUITests" */;
+			buildPhases = (
+				9802C61C2837D5B70000D73D /* Sources */,
+				9802C61D2837D5B70000D73D /* Frameworks */,
+				9802C61E2837D5B70000D73D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9802C6222837D5B70000D73D /* PBXTargetDependency */,
+			);
+			name = PrayerTimeUITests;
+			productName = PrayerTimeUITests;
+			productReference = 9802C6202837D5B70000D73D /* PrayerTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9802C5FE2837D5B10000D73D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9802C6052837D5B20000D73D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9802C6152837D5B70000D73D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9802C6052837D5B20000D73D;
+					};
+					9802C61F2837D5B70000D73D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9802C6052837D5B20000D73D;
+					};
+				};
+			};
+			buildConfigurationList = 9802C6012837D5B10000D73D /* Build configuration list for PBXProject "PrayerTime" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9802C5FD2837D5B10000D73D;
+			productRefGroup = 9802C6072837D5B20000D73D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9802C6052837D5B20000D73D /* PrayerTime */,
+				9802C6152837D5B70000D73D /* PrayerTimeTests */,
+				9802C61F2837D5B70000D73D /* PrayerTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9802C6042837D5B20000D73D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9802C6112837D5B70000D73D /* Preview Assets.xcassets in Resources */,
+				9802C60E2837D5B70000D73D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9802C6142837D5B70000D73D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9802C61E2837D5B70000D73D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9802C6022837D5B20000D73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9802C60C2837D5B20000D73D /* ContentView.swift in Sources */,
+				9802C60A2837D5B20000D73D /* PrayerTimeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9802C6122837D5B70000D73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9802C61B2837D5B70000D73D /* PrayerTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9802C61C2837D5B70000D73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9802C6272837D5B70000D73D /* PrayerTimeUITestsLaunchTests.swift in Sources */,
+				9802C6252837D5B70000D73D /* PrayerTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9802C6182837D5B70000D73D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9802C6052837D5B20000D73D /* PrayerTime */;
+			targetProxy = 9802C6172837D5B70000D73D /* PBXContainerItemProxy */;
+		};
+		9802C6222837D5B70000D73D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9802C6052837D5B20000D73D /* PrayerTime */;
+			targetProxy = 9802C6212837D5B70000D73D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9802C6282837D5B70000D73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9802C6292837D5B70000D73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9802C62B2837D5B70000D73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PrayerTime/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jerin.PrayerTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9802C62C2837D5B70000D73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PrayerTime/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jerin.PrayerTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9802C62E2837D5B70000D73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jerin.PrayerTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrayerTime.app/PrayerTime";
+			};
+			name = Debug;
+		};
+		9802C62F2837D5B70000D73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jerin.PrayerTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrayerTime.app/PrayerTime";
+			};
+			name = Release;
+		};
+		9802C6312837D5B70000D73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jerin.PrayerTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrayerTime;
+			};
+			name = Debug;
+		};
+		9802C6322837D5B70000D73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jerin.PrayerTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrayerTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9802C6012837D5B10000D73D /* Build configuration list for PBXProject "PrayerTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9802C6282837D5B70000D73D /* Debug */,
+				9802C6292837D5B70000D73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9802C62A2837D5B70000D73D /* Build configuration list for PBXNativeTarget "PrayerTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9802C62B2837D5B70000D73D /* Debug */,
+				9802C62C2837D5B70000D73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9802C62D2837D5B70000D73D /* Build configuration list for PBXNativeTarget "PrayerTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9802C62E2837D5B70000D73D /* Debug */,
+				9802C62F2837D5B70000D73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9802C6302837D5B70000D73D /* Build configuration list for PBXNativeTarget "PrayerTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9802C6312837D5B70000D73D /* Debug */,
+				9802C6322837D5B70000D73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9802C5FE2837D5B10000D73D /* Project object */;
+}
