@@ -14,6 +14,8 @@
 		9802C61B2837D5B70000D73D /* PrayerTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9802C61A2837D5B70000D73D /* PrayerTimeTests.swift */; };
 		9802C6252837D5B70000D73D /* PrayerTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9802C6242837D5B70000D73D /* PrayerTimeUITests.swift */; };
 		9802C6272837D5B70000D73D /* PrayerTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9802C6262837D5B70000D73D /* PrayerTimeUITestsLaunchTests.swift */; };
+		9802C6352837DD430000D73D /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9802C6342837DD430000D73D /* LocationService.swift */; };
+		9802C6392837DE430000D73D /* LocationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9802C6382837DE430000D73D /* LocationError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		9802C6202837D5B70000D73D /* PrayerTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrayerTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9802C6242837D5B70000D73D /* PrayerTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeUITests.swift; sourceTree = "<group>"; };
 		9802C6262837D5B70000D73D /* PrayerTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9802C6342837DD430000D73D /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		9802C6382837DE430000D73D /* LocationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		9802C6082837D5B20000D73D /* PrayerTime */ = {
 			isa = PBXGroup;
 			children = (
+				9802C6332837DD320000D73D /* Services */,
 				9802C6092837D5B20000D73D /* PrayerTimeApp.swift */,
 				9802C60B2837D5B20000D73D /* ContentView.swift */,
 				9802C60D2837D5B70000D73D /* Assets.xcassets */,
@@ -125,6 +130,23 @@
 				9802C6262837D5B70000D73D /* PrayerTimeUITestsLaunchTests.swift */,
 			);
 			path = PrayerTimeUITests;
+			sourceTree = "<group>";
+		};
+		9802C6332837DD320000D73D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9802C6372837DE330000D73D /* Location */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9802C6372837DE330000D73D /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				9802C6342837DD430000D73D /* LocationService.swift */,
+				9802C6382837DE430000D73D /* LocationError.swift */,
+			);
+			path = Location;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9802C60C2837D5B20000D73D /* ContentView.swift in Sources */,
+				9802C6392837DE430000D73D /* LocationError.swift in Sources */,
+				9802C6352837DD430000D73D /* LocationService.swift in Sources */,
 				9802C60A2837D5B20000D73D /* PrayerTimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
