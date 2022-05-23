@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>473772027571-jdgug4rja39soahk6ta4jhhp23uvumg5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.473772027571-jdgug4rja39soahk6ta4jhhp23uvumg5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCmujfuQvUxJHXp33BGxP7KMpoaz7QG3R4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>473772027571</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jerintel.LocalPrayerTime</string>
+	<key>PROJECT_ID</key>
+	<string>prayertime-1c8a9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>prayertime-1c8a9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:473772027571:ios:631e40b77e3b7c828acac6</string>
+	<key>DATABASE_URL</key>
+	<string>https://prayertime-1c8a9.firebaseio.com</string>
+</dict>
+</plist>
