@@ -20,7 +20,7 @@ extension GlobalConstants {
         return "http://api.geonames.org"
     }()
     static let GeoUserName: String = {
-        return "jerintel"
+        return "jerinapp"
     }()
 }
 

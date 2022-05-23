@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C8AD030BD94F21EFE3379EB /* Pods_PrayerTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBC7CA94D47B2C1043BEDC2 /* Pods_PrayerTime.framework */; };
+		98F89638283B6F1E00189024 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98F89637283B6F1E00189024 /* GoogleService-Info.plist */; };
 		F004B79C24640BCB001A3BBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004B79B24640BCB001A3BBC /* AppDelegate.swift */; };
 		F004B79E24640BCB001A3BBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004B79D24640BCB001A3BBC /* SceneDelegate.swift */; };
 		F004B7A224640BCD001A3BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F004B7A124640BCD001A3BBC /* Assets.xcassets */; };
@@ -21,7 +22,6 @@
 		F004B7DA2465C0A4001A3BBC /* NotificationCenter+extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004B7D92465C0A4001A3BBC /* NotificationCenter+extention.swift */; };
 		F004B7DC2465C0B9001A3BBC /* UserDefaults+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004B7DB2465C0B9001A3BBC /* UserDefaults+extension.swift */; };
 		F01DA86224920916007FBE4D /* BackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DA86124920916007FBE4D /* BackGroundView.swift */; };
-		F01DA86624934C81007FBE4D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F01DA86524934C80007FBE4D /* GoogleService-Info.plist */; };
 		F01DA86D2494BB3D007FBE4D /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DA86C2494BB3D007FBE4D /* AppErrors.swift */; };
 		F01DA87024961E7C007FBE4D /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DA86F24961E7C007FBE4D /* ErrorView.swift */; };
 		F01DA873249623F6007FBE4D /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DA872249623F5007FBE4D /* ConnectivityManager.swift */; };
@@ -83,6 +83,7 @@
 /* Begin PBXFileReference section */
 		0E1DACB5095B6BCF5E298080 /* Pods-PrayerTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrayerTime.debug.xcconfig"; path = "Target Support Files/Pods-PrayerTime/Pods-PrayerTime.debug.xcconfig"; sourceTree = "<group>"; };
 		7DBC7CA94D47B2C1043BEDC2 /* Pods_PrayerTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrayerTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F89637283B6F1E00189024 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BFFB61536253DD299E8834B2 /* Pods-PrayerTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrayerTime.release.xcconfig"; path = "Target Support Files/Pods-PrayerTime/Pods-PrayerTime.release.xcconfig"; sourceTree = "<group>"; };
 		F004B79824640BCB001A3BBC /* Prayer Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prayer Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F004B79B24640BCB001A3BBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,7 +100,6 @@
 		F004B7D92465C0A4001A3BBC /* NotificationCenter+extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+extention.swift"; sourceTree = "<group>"; };
 		F004B7DB2465C0B9001A3BBC /* UserDefaults+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+extension.swift"; sourceTree = "<group>"; };
 		F01DA86124920916007FBE4D /* BackGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundView.swift; sourceTree = "<group>"; };
-		F01DA86524934C80007FBE4D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F01DA86C2494BB3D007FBE4D /* AppErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrors.swift; sourceTree = "<group>"; };
 		F01DA86F24961E7C007FBE4D /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		F01DA872249623F5007FBE4D /* ConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityManager.swift; sourceTree = "<group>"; };
@@ -190,7 +190,7 @@
 		F004B78F24640BCB001A3BBC = {
 			isa = PBXGroup;
 			children = (
-				F01DA86524934C80007FBE4D /* GoogleService-Info.plist */,
+				98F89637283B6F1E00189024 /* GoogleService-Info.plist */,
 				F004B79A24640BCB001A3BBC /* PrayerTime */,
 				F004B79924640BCB001A3BBC /* Products */,
 				52BA9243FC23C51AF360A233 /* Pods */,
@@ -560,8 +560,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F01DA86624934C81007FBE4D /* GoogleService-Info.plist in Resources */,
 				F004B7A824640BCD001A3BBC /* LaunchScreen.storyboard in Resources */,
+				98F89638283B6F1E00189024 /* GoogleService-Info.plist in Resources */,
 				F004B7A524640BCD001A3BBC /* Preview Assets.xcassets in Resources */,
 				F004B7A224640BCD001A3BBC /* Assets.xcassets in Resources */,
 			);
@@ -838,7 +838,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.8;
+				CURRENT_PROJECT_VERSION = 2.0.1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"PrayerTime/Preview Content\"";
 				DEVELOPMENT_TEAM = HS6VG8726U;
@@ -848,8 +848,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jerintel.LocalPrayerTime;
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jerin.prayerTime;
 				PRODUCT_NAME = "Prayer Time";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -864,7 +864,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.8;
+				CURRENT_PROJECT_VERSION = 2.0.1;
 				DEVELOPMENT_ASSET_PATHS = "\"PrayerTime/Preview Content\"";
 				DEVELOPMENT_TEAM = HS6VG8726U;
 				ENABLE_PREVIEWS = YES;
@@ -873,8 +873,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jerintel.LocalPrayerTime;
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jerin.prayerTime;
 				PRODUCT_NAME = "Prayer Time";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
