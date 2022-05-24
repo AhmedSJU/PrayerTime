@@ -22,7 +22,7 @@ struct AppVersionView: View {
                 Text("Version: \(Bundle.main.shortVersion)")
                 Text("Build: \(Bundle.main.buildVersion)")
             }.padding()
-        }.navigationBarTitle(Text(MoreListRowType.appVersion.rawValue.titleCase()).bold(),displayMode: .inline)
+        }.navigationBarTitle(Text(MoreListRowType.appVersion.rawValue.titleCase()),displayMode: .inline)
     }
 }
 

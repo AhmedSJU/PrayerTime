@@ -23,7 +23,7 @@ struct MoreView: View {
                     }
             
                 }
-                .navigationBarTitle(Text("More").bold(),displayMode: .inline)
+                .navigationBarTitle(Text("More"),displayMode: .inline)
             }
             
         }.onAppear {

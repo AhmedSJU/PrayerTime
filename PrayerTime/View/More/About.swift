@@ -15,7 +15,7 @@ struct About: View {
                 Text("Sheikh Jamal Uddin Ahmed. © \(Date().getYear())")
                     .bold()
             }.padding()
-        }.navigationBarTitle(Text("aboutTheApp".titleCase()).bold(),displayMode: .inline)
+        }.navigationBarTitle(Text("aboutTheApp".titleCase()),displayMode: .inline)
     }
 }
 

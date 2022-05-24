@@ -36,7 +36,7 @@ struct AppFeedbackView: View {
                 Spacer()
             }.padding()
         }
-        .navigationBarTitle(Text(MoreListRowType.appFeedback.rawValue.titleCase()).bold(),displayMode: .inline)
+        .navigationBarTitle(Text(MoreListRowType.appFeedback.rawValue.titleCase()),displayMode: .inline)
         .sheet(isPresented: $isShowingMailView) {
             SendEMailView(result: self.$result)
             

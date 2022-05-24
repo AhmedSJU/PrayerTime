@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3C8AD030BD94F21EFE3379EB /* Pods_PrayerTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBC7CA94D47B2C1043BEDC2 /* Pods_PrayerTime.framework */; };
-		98F89638283B6F1E00189024 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98F89637283B6F1E00189024 /* GoogleService-Info.plist */; };
+		89BF018A283D998B004D58DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89BF0189283D998B004D58DA /* GoogleService-Info.plist */; };
+		89BF018C283D999A004D58DA /* GlobalURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF018B283D999A004D58DA /* GlobalURLs.swift */; };
 		F004B79C24640BCB001A3BBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004B79B24640BCB001A3BBC /* AppDelegate.swift */; };
 		F004B79E24640BCB001A3BBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004B79D24640BCB001A3BBC /* SceneDelegate.swift */; };
 		F004B7A224640BCD001A3BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F004B7A124640BCD001A3BBC /* Assets.xcassets */; };
@@ -69,7 +70,6 @@
 		F0869A2F24666778000889A3 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0869A2E24666778000889A3 /* ParameterEncoding.swift */; };
 		F0869A31246667A0000889A3 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0869A30246667A0000889A3 /* URLParameterEncoder.swift */; };
 		F0869A33246667C0000889A3 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0869A32246667C0000889A3 /* JSONParameterEncoder.swift */; };
-		F0869A3624666821000889A3 /* GlobalURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0869A3524666821000889A3 /* GlobalURLs.swift */; };
 		F0869A3F24666A9C000889A3 /* ResourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0869A3E24666A9C000889A3 /* ResourceType.swift */; };
 		F0D20F4724791222009C2D38 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D20F4624791222009C2D38 /* About.swift */; };
 		F0EF596E24788F980015FCB0 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF596D24788F980015FCB0 /* MoreView.swift */; };
@@ -83,7 +83,8 @@
 /* Begin PBXFileReference section */
 		0E1DACB5095B6BCF5E298080 /* Pods-PrayerTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrayerTime.debug.xcconfig"; path = "Target Support Files/Pods-PrayerTime/Pods-PrayerTime.debug.xcconfig"; sourceTree = "<group>"; };
 		7DBC7CA94D47B2C1043BEDC2 /* Pods_PrayerTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrayerTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98F89637283B6F1E00189024 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		89BF0189283D998B004D58DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		89BF018B283D999A004D58DA /* GlobalURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalURLs.swift; sourceTree = "<group>"; };
 		BFFB61536253DD299E8834B2 /* Pods-PrayerTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrayerTime.release.xcconfig"; path = "Target Support Files/Pods-PrayerTime/Pods-PrayerTime.release.xcconfig"; sourceTree = "<group>"; };
 		F004B79824640BCB001A3BBC /* Prayer Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prayer Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F004B79B24640BCB001A3BBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -147,7 +148,6 @@
 		F0869A2E24666778000889A3 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
 		F0869A30246667A0000889A3 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
 		F0869A32246667C0000889A3 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
-		F0869A3524666821000889A3 /* GlobalURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalURLs.swift; sourceTree = "<group>"; };
 		F0869A3E24666A9C000889A3 /* ResourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceType.swift; sourceTree = "<group>"; };
 		F0D20F4624791222009C2D38 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		F0EF596D24788F980015FCB0 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
@@ -190,7 +190,7 @@
 		F004B78F24640BCB001A3BBC = {
 			isa = PBXGroup;
 			children = (
-				98F89637283B6F1E00189024 /* GoogleService-Info.plist */,
+				89BF0189283D998B004D58DA /* GoogleService-Info.plist */,
 				F004B79A24640BCB001A3BBC /* PrayerTime */,
 				F004B79924640BCB001A3BBC /* Products */,
 				52BA9243FC23C51AF360A233 /* Pods */,
@@ -463,7 +463,7 @@
 		F0869A3424666801000889A3 /* Environment */ = {
 			isa = PBXGroup;
 			children = (
-				F0869A3524666821000889A3 /* GlobalURLs.swift */,
+				89BF018B283D999A004D58DA /* GlobalURLs.swift */,
 			);
 			path = Environment;
 			sourceTree = "<group>";
@@ -561,7 +561,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F004B7A824640BCD001A3BBC /* LaunchScreen.storyboard in Resources */,
-				98F89638283B6F1E00189024 /* GoogleService-Info.plist in Resources */,
+				89BF018A283D998B004D58DA /* GoogleService-Info.plist in Resources */,
 				F004B7A524640BCD001A3BBC /* Preview Assets.xcassets in Resources */,
 				F004B7A224640BCD001A3BBC /* Assets.xcassets in Resources */,
 			);
@@ -643,13 +643,13 @@
 				F01DA87B2496E556007FBE4D /* MainView.swift in Sources */,
 				F01DA8792496E324007FBE4D /* PrayerTimeViewModel.swift in Sources */,
 				F0EF596E24788F980015FCB0 /* MoreView.swift in Sources */,
+				89BF018C283D999A004D58DA /* GlobalURLs.swift in Sources */,
 				F004B7C924652A20001A3BBC /* Double+extention.swift in Sources */,
 				F04B79CA247EA00D002AF757 /* LocationListView.swift in Sources */,
 				F04B79C0247D22F3002AF757 /* PrayerTimeView.swift in Sources */,
 				F04B79CC247EA9C9002AF757 /* AddLocationView.swift in Sources */,
 				F01DA873249623F6007FBE4D /* ConnectivityManager.swift in Sources */,
 				F01DA86D2494BB3D007FBE4D /* AppErrors.swift in Sources */,
-				F0869A3624666821000889A3 /* GlobalURLs.swift in Sources */,
 				F0869A232466661F000889A3 /* RequestManager.swift in Sources */,
 				F0869A2A24666713000889A3 /* Reachability.swift in Sources */,
 				F0FFED3C247FD34000D783E7 /* AddLocationViewModel.swift in Sources */,
